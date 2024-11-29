@@ -1,108 +1,242 @@
 body{
-    background-color: white;
+    padding: 0px;
     margin: 0px;
+    width: 100%;
+    height: auto;
 }
-.parent {
-    background-color: #e61b5e;
+.parent{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    padding: 0px 40px;
+    border: 1px solid white;
+    box-shadow: 5px 5px 3px rgb(102, 100, 100);
+    height: 30px;
+    margin-top: 10px;
+}
+.panda img{
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 30px;
-    padding: 30px;
-    flex-wrap: wrap;
-    margin: 0px;
-    padding: 0px;
-    height: 70px;
-}
-
-.bag{
-    width: 50px;
+    width: 120px;
     height: auto;
-    margin: 3px 0px 0px 0px;
 }
-
-.line {
-    text-align: center;
+select{
+    font-family: "FontAwesome";
+    border: none;
+}
+select:hover{
+    background-color: black;
+}
+.trolly {
+    border: none;
+    border-radius: 50%;
+    padding: 0px;
+    font-size: 30px;
+    margin-left: 5px;
+}
+.trolly:hover{
+    background-color: black
+}
+.log{
+    border: 1px solid rgb(212, 84, 127);
+    background-color: white;
+    border-radius: 5px;
+    color:  rgb(212, 84, 127);
+    margin-right: 5px;
+    
+}
+.log:hover{
     color: white;
-    font-size: 22px;
+    background-color: black;
+    padding: 10px 10px 10px 10px;
+    border: none;
 }
-
-.button {
-    background-color: #c03f50;
+.sign{
+    border: 1px solid  rgb(212, 84, 127);
+    background-color:  rgb(212, 84, 127);
+    border-radius: 5px;
+    color: white;
+    margin-right: 5PX;
+}
+.sign:hover{
+    color: white;
+    background-color: black;
+    padding: 10px 10px 10px 10px;
+    border: none;
+}
+.container{
+    position: relative;
+    height: 500px;
+    background-color: #f7f7f7;
+}
+.pic{
+    position: absolute;
+    width: 40%;
+    margin-left: 60%;
+    background-image: url(https://images.deliveryhero.io/image/foodpanda/homepage/refresh-hero-home-pk.png);
+    height: 100vh;
+    max-height: 650px;
+    background-size: cover;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 3%;
+}
+.hero{
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 5px rgb(124, 124, 124);
+    margin-top: 20px;
+}
+.icon input{
+    width: 500px;
+    height: 40px;
+}
+.icon{
+    position: relative;
+}
+.burger{
+    margin: 0px 20px;
+    padding: 10px 20px;
+    background-color:  rgb(212, 84, 127);
     color: white;
     border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 5px;
+    border-radius: 7px;
 }
-
-.parent2 {
-    border: 1px solid rgb(255, 253, 253);
-    box-shadow: 5px 5px 5px rgb(163, 159, 159);
-    height: 70px;
-    background-color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 800px;
-    padding: 20px;
-    flex-wrap: wrap;
-    margin: 0px;
-    padding: 0px;
+.burger:hover{
+    background-color: rgb(121, 120, 120);
 }
-
-.panda {
-    width: 60px;
-    height: auto;
+.china{
+    margin-top: 85px;
 }
-.account{
+.box{
+    width: 600px;
+    height: 300px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px rgb(97, 97, 97);
+    border-radius: 10px;
+    position: relative;
+    left: 90px;
+    bottom: 150px;
+    background-color: white;
+    padding: 0px 5px 0px 15px;
+}
+.here{
+    color: white;
+    background-color:  rgb(212, 84, 127);
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    height: 60px;
+    width: 120px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.here:hover{
+    background-color: black;
+}
+.text2{
+    margin: 0px 0px 0px 40px;
+}
+.pakistan{
+    margin: 0px 0px 30px 40px;
+}
+.hello{
     display: flex;
     gap: 20px;
+    width: 100%;
+    height: auto;
 }
-.abcd{
-    margin: 160px 0px 0px 60px;
-    font-size: 35px;
-    opacity: 0.5;
+.world{
     display: flex;
+    gap: 20px;
+    width: 100%;
+    height: auto;
+    max-width: 1920px;
 }
-.parent3{
-    border: 1px solid  #b1aaad;
+.war{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    height: auto;
+    max-width: 1920px;
+}
+.hello button{
+    position: relative;
+    bottom: 50px;
+    left: 10px;
     background-color: white;
-    box-shadow: 3px 5px 5px  #e6e1e3;
-    border-radius: 15px;
-    width: 750px;
-    height: 90px;
-    margin: 40px 0px 0px 60px;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-input{
-    background-color: white;
-    border-color: #e6e1e3;
-    width: 500px;
-    height: 55px;
-    border-radius: 20px;
-    margin: 15px 0px 0px 20px;
-}
-.search {
-    background-color:  #f51d3b;
-    color: white;
-    border: black;
-    border-radius: 20px;
-    padding: 15px 15px;
     font-size: 20px;
     border-radius: 5px;
-    margin: 10px 0px 0px 20px;
+    max-width: 1920;
 }
-.image{
-    margin: 0px 0px 0px 680px;
-    padding: 0px;
-}
-.nomi{
-    margin: 160px 0px 0px 40px;
+.world button{
+    position: relative;
+    bottom: 50px;
+    left: 10px;
+    background-color: white;
     font-size: 20px;
-    display: flex;
+    border-radius: 5px;
 }
-.khan{
+.war button{
+    position: relative;
+    bottom: 50px;
+    left: 10px;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.city img{
+    border-radius: 10px;
+}
+.pocket{
+    margin: 30px 0px 0px 50px;
+}
+p{
+    font-size: 17px;
+}
+.scanner{
+    border: 2px solid black;
+    width: 1250px;
+    position: relative;
+    left: 40px;
     margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color:  rgb(212, 84, 127);
+    padding: 15px 0px 10px 40px;
+    height: 400px;
+}
+.margin{
+    margin-left: 220px;
+    font-size: 25px;
+}
+h2{
+    font-size: 30px;
+    font-weight: 20px;
+}
+.picture{
+    position: relative;
+    bottom: 510px;
+    left: 50px;
+}
+.promo{
+    position: relative;
+    bottom: 450px;
+    left: 80px;
+}
+.code{
+    position: relative;
+    bottom: 600px;
+    right: 350px;
+}
+.mobile{
+    position: relative;
+    bottom: 440px;
+    left: 110px;
+    margin: 0px;
+    padding: 0px;
 }
